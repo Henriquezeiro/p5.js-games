@@ -32,6 +32,7 @@ function verificaColisao(){
     if (colisao){
       print("colidiu");
       retornaAtorAoPontoZero();
+      points--;
     }
   }
 }
